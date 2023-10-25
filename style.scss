@@ -1,0 +1,20 @@
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+.images-div {
+    width: 65%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px 15px;
+    .image-container {
+       img {
+        width: 100%;
+       }
+    }
+}
+.details-div {
+    width: 50%;
+}
+
